@@ -1,8 +1,8 @@
 # it-club-js-random-assignments
 You can fork this repository and use the already setup folders.
 ## Basic Exercises
-[Go To Basic Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/master/Basic/index.html)
+[Go To Basic Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/solution/Basic/index.html)
 ## Intermediate Exercises
-[Go To Intermediate Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/master/Intermediate/index.html)
+[Go To Intermediate Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/solution/Intermediate/index.html)
 ## Advanced Exercises
-[Go To Advanced Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/master/Advanced/index.html)
+[Go To Advanced Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/solution/Advanced/index.html)
