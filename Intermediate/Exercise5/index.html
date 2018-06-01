@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Random Exercises</title>
+    <title>Random Exercises - Intermediate - Exercise 4</title>
 </head>
 <body>
+<h1>Assignment</h1>
+<p>Write a function that takes one parameter (object) and converts all its key-value pairs into values of an array.
+Use the example object from below.
+</p>
+<h4>Example</h4>
+<code>
+let exampleObject =
+    {
+        "firstname": "Max",
+        "lastname" : "Muster",
+        "children" : [
+            {
+                "name" : "Hans"
+                "age"  : 2
+            },
+            {
+                "name" : "Anna"
+                "age"  : 6
+            }
+        ],
+        age : 30,
+    };<br>
+    let convertedObject = convertObjectToArray(exampleObject);<br>
+    console.log(convertedObject);<br>
+    // ["Max", "Muster", "Hans", 2, "Anna", 6, 30]
+
+</code>
 <script src="js/script.js"></script>
 </body>
 </html>
