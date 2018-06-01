@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Exercises - Basic - Exercise 12</title>
+</head>
+<body>
+<h1>Assignment</h1>
+<p>Write a function randomizeCharacters, that takes one input string and randomizes its characters. Duplicates are allowed.</p>
+<h4>Example</h4>
+<pre>
+    <code>
+        let name = "Max Muster";
+        console.log(randomizeCharacters(name)); // possible outputs: "xaaM ueMmre", "  xM MsreM"
+    </code>
+</pre>
+<h4>Possible Solution</h4>
+<pre>
+    <code>
+    function randomizeCharacters(input) {
+    let randomizedInput = "";
+    for(let i = 0; i < input.length; i++){
+        randomizedInput += input[Math.floor(Math.random()*input.length)];
+    }
+    return randomizedInput;
+    }
+
+    console.log(randomizeCharacters("Max Muster"));
+    console.log(randomizeCharacters("Max Muster"));
+    console.log(randomizeCharacters("Max Muster"));
+    console.log(randomizeCharacters("Max Muster"));
+    </code>
+</pre>
+<script src="js/script.js"></script>
+</body>
+</html>
