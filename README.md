@@ -1,1 +1,1 @@
-"# it-club-js-random-assignments" 
+# it-club-js-random-assignments
