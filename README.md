@@ -1,5 +1,5 @@
 # it-club-js-random-assignments
-You can fork this repository and use the already setup folders.
+You can fork this repository and use the already setup folders. The solution branch contains the solutions. As of right now, not all solutions are ready.
 ## Basic Exercises
 [Go To Basic Exercises HTML](http://htmlpreview.github.io/?https://github.com/Zmote/it-club-js-random-assignments/blob/solution/Basic/index.html)
 ## Intermediate Exercises
