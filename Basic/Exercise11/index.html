@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Exercises - Basic - Exercise 11</title>
+</head>
+<body>
+<h1>Assignment</h1>
+<p>Write a function that takes a parameter (number), which represents the numerical representation of a month, and returns the string represantions of a month.</p>
+<h4>Example</h4>
+<pre>
+    <code>
+    convertToMonthName(1); // --> January
+    convertToMonthName(2); // --> February
+    convertToMonthName(3); // --> March
+    </code>
+</pre>
+<h4>Possible Solution</h4>
+<pre>
+    <code>
+    let months = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "Dezember"];
+
+    function convertToMonthName(monthNumber) {
+        if(typeof monthNumber === "number"
+        && monthNumber > 0 && monthNumber < 13){
+            return months[monthNumber-1];
+        }
+        return "Wrong Input. Enter a number between 1 and 12.";
+    }
+
+    for(let i = 1; i <= 12; i++){
+        console.log(convertToMonthName(i));
+    }
+    </code>
+</pre>
+<script src="js/script.js"></script>
+</body>
+</html>
